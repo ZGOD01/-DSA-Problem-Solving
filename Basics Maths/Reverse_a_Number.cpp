@@ -7,13 +7,13 @@ int main(){
     cout<<"Enter the No. :- ";
     cin>>n;
 
-    int revNum = 0;
-    while (n>0)
-    {
-        int LastNo = n % 10;
-        revNum = (revNum * 10) + LastNo;
-        n = n / 10;
-    }
+        int revNum = 0;
+        while (n>0)
+        {
+            int LastNo = n % 10;
+            revNum = (revNum * 10) + LastNo;
+            n = n / 10;
+        }
     cout<<revNum;
     
 }

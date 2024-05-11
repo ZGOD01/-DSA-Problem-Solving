@@ -9,8 +9,7 @@ void print2(int n) {
             cout<<"* ";
         }
         cout<<endl;  
-    }
-    
+    }   
 }
 
 
